@@ -100,7 +100,7 @@ export class ProductService {
           price: {
             loose: Number(item.rate || 0),
             // temporary until backend provides box price
-            box: Number(item.rate || 0) * 24,
+            box: 100 * 24,
           },
 
           qty: {
